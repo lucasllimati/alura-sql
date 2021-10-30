@@ -28,15 +28,15 @@
 
 #### **SELECT**
 
-<p>O comando SELECT é um dos principais comandos SQL. Através dele é possível retomar registros no banco de dados. Com o SELECT é possível retomar múltiplos registros, informando quantas colunas queremos consultar. Ele é um grande facilitador de pesquisas no banco de dados e otimiza bastante a produtividade dos desenvolvedores web.</p>
+<p>O comando **SELECT** é um dos principais comandos SQL. Através dele é possível retomar registros no banco de dados. Com o **SELECT** é possível retomar múltiplos registros, informando quantas colunas queremos consultar. Ele é um grande facilitador de pesquisas no banco de dados e otimiza bastante a produtividade dos desenvolvedores web.</p>
 
 #### **CREAT DATABASE**
 
-<p>Com o comando CREAT DATABASE é possível criar um banco de dados do zero. Esse comando é muito importante principalmente quando você precisa reestruturar todo o seu sistema, mas não sabe por onde começar. Criando um novo banco de dados é possível planejar a organização e estruturar o novo banco de dados desde o início o que facilita na hora de realizar consultas posteriormente. As informações estão mais fáceis de serem encontradas.</p>
+<p>Com o comando *CREAT DATABASE* é possível criar um banco de dados do zero. Esse comando é muito importante principalmente quando você precisa reestruturar todo o seu sistema, mas não sabe por onde começar. Criando um novo banco de dados é possível planejar a organização e estruturar o novo banco de dados desde o início o que facilita na hora de realizar consultas posteriormente. As informações estão mais fáceis de serem encontradas.</p>
 
 #### **USE e SHOW DATABASES**
 
-<p>Esses dois comandos são bastante parecidos, por isso vamos falar deles num único tópico. O comando SHOW DATABASES serve para fazer a visualização mais rápida de diferentes bases de dados. Já com o comando USE é possível selecionar qual base de dados queremos usar e editar. Ambos os comandos são essenciais para desenvolvedores web que trabalham com vários bancos de dados e querem ter a vida facilitada sempre que precisarem pesquisar em qualquer uma das bases. Através do comando USE e do SHOW DATABASES é possível saber quais dados estão armazenados em cada base de dados, o que facilita bastante a vida.</p>
+<p>Esses dois comandos são bastante parecidos, por isso vamos falar deles num único tópico. O comando *SHOW DATABASES* serve para fazer a visualização mais rápida de diferentes bases de dados. Já com o comando *USE* é possível selecionar qual base de dados queremos usar e editar. Ambos os comandos são essenciais para desenvolvedores web que trabalham com vários bancos de dados e querem ter a vida facilitada sempre que precisarem pesquisar em qualquer uma das bases. Através do comando USE e do SHOW DATABASES é possível saber quais dados estão armazenados em cada base de dados, o que facilita bastante a vida.</p>
 
 #### **INSERT**
 
