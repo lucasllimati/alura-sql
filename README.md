@@ -2,12 +2,8 @@
 
 ## Cursos Alura
 
-<!--ts-->
-
 - [Introdução ao SQL com MySQL: Manipule e consulte dados](https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql)
 - [Consultas SQL: Avançando no SQL com MySQL](https://cursos.alura.com.br/course/mysql-consultas-sql)
-
-<!--te-->
 
 ## Conteúdo
 
@@ -30,30 +26,30 @@
 
 ## Comandos
 
-### **SELECT**
+#### **SELECT**
 
 <p>O comando SELECT é um dos principais comandos SQL. Através dele é possível retomar registros no banco de dados. Com o SELECT é possível retomar múltiplos registros, informando quantas colunas queremos consultar. Ele é um grande facilitador de pesquisas no banco de dados e otimiza bastante a produtividade dos desenvolvedores web.</p>
 
-### **CREAT DATABASE**
+#### **CREAT DATABASE**
 
 <p>Com o comando CREAT DATABASE é possível criar um banco de dados do zero. Esse comando é muito importante principalmente quando você precisa reestruturar todo o seu sistema, mas não sabe por onde começar. Criando um novo banco de dados é possível planejar a organização e estruturar o novo banco de dados desde o início o que facilita na hora de realizar consultas posteriormente. As informações estão mais fáceis de serem encontradas.</p>
 
-### **USE e SHOW DATABASES**
+#### **USE e SHOW DATABASES**
 
 <p>Esses dois comandos são bastante parecidos, por isso vamos falar deles num único tópico. O comando SHOW DATABASES serve para fazer a visualização mais rápida de diferentes bases de dados. Já com o comando USE é possível selecionar qual base de dados queremos usar e editar. Ambos os comandos são essenciais para desenvolvedores web que trabalham com vários bancos de dados e querem ter a vida facilitada sempre que precisarem pesquisar em qualquer uma das bases. Através do comando USE e do SHOW DATABASES é possível saber quais dados estão armazenados em cada base de dados, o que facilita bastante a vida.</p>
 
-### **INSERT**
+#### **INSERT**
 
 <p>O comando INSERT serve para inserir dados no banco de dados. Com o comando é possível fazer isto de maneira mais dinâmica e dentro da própria aplicação, sem precisar recorrer a códigos PHP para inserir dados.</p>
 
-### **UPDATE**
+#### **UPDATE**
 
 <p>O comando UPDATE serve para facilitar a atualização de dados nas tabelas. Esse recurso é bastante simples e de grande utilidade, já que torna possível a alteração de diversos registros com poucos cliques.</p>
 
-### **DELETE**
+#### **DELETE**
 
 <p>Como o próprio nome já denuncia, o comando DELETE serve para excluir um ou mais registros de uma base de dados. É possível remover vários registros simultaneamente com o uso do DELETE, o que faz o desenvolvedor economizar tempo na checagem do banco de dados.</p>
 
-### **CREATE TABLE**
+#### **CREATE TABLE**
 
 <p>Esse comando serve para criar novas tabelas em uma base de dados. O CREAT TABLE cria novas tabelas, conseguindo dividi-las em colunas, onde é possível salvar e referenciar especificações de produtos, etc. Com a criação de uma tabela, é preciso especificar todas as colunas e campos criados e este comando consegue dar o tom para toda essa parte importante para a inserção de novos registros num banco de dados.</p>
