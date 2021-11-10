@@ -26,22 +26,34 @@
 
 ## Comandos
 
-#### **CREAT DATABASE**
-Com o comando **CREAT DATABASE** é possível criar um banco de dados do zero. Esse comando é muito importante principalmente quando você precisa reestruturar todo o seu sistema, mas não sabe por onde começar. Criando um novo banco de dados é possível planejar a organização e estruturar o novo banco de dados desde o início o que facilita na hora de realizar consultas posteriormente. As informações estão mais fáceis de serem encontradas.
+#### **CREATE DATABASE**
+Com o comando **CREATE DATABASE** é possível criar um banco de dados do zero. Esse comando é muito importante principalmente quando você precisa reestruturar todo o seu sistema, mas não sabe por onde começar. Criando um novo banco de dados é possível planejar a organização e estruturar o novo banco de dados desde o início o que facilita na hora de realizar consultas posteriormente. As informações estão mais fáceis de serem encontradas.
 ~~~sql
 
 ~~~
 
 #### **CREATE TABLE**
-Esse comando serve para criar novas tabelas em uma base de dados. O **CREAT TABLE** cria novas tabelas, conseguindo dividi-las em colunas, onde é possível salvar e referenciar especificações de produtos, etc. Com a criação de uma tabela, é preciso especificar todas as colunas e campos criados e este comando consegue dar o tom para toda essa parte importante para a inserção de novos registros num banco de dados.
+Esse comando serve para criar novas tabelas em uma base de dados. O **CREATE TABLE** cria novas tabelas, conseguindo dividi-las em colunas, onde é possível salvar e referenciar especificações de produtos, etc. Com a criação de uma tabela, é preciso especificar todas as colunas e campos criados e este comando consegue dar o tom para toda essa parte importante para a inserção de novos registros num banco de dados.
 ~~~sql
+CREATE DATABASE escola;
+~~~
 
+#### **ALTER TABLE**
+Esse  comando **ALTER TABLE** é utilizado quando precisamos alterar a estrutura de um objeto que já existe na base de dados.
+~~~sql
+ALTER TABLE estudantes ADD idade INT;
+~~~
+
+#### **DROP TABLE**
+Esse  comando **DROP TABLE** é o responsável por deletar objetos da nossa base de dados.
+~~~sql
+DROP TABLE estudantes;
 ~~~
 
 #### **USE e SHOW DATABASES**
 Esses dois comandos são bastante parecidos, por isso vamos falar deles num único tópico. O comando **SHOW DATABASES** serve para fazer a visualização mais rápida de diferentes bases de dados. Já com o comando **USE** é possível selecionar qual base de dados queremos usar e editar. Ambos os comandos são essenciais para desenvolvedores web que trabalham com vários bancos de dados e querem ter a vida facilitada sempre que precisarem pesquisar em qualquer uma das bases. Através do comando USE e do **SHOW DATABASES** é possível saber quais dados estão armazenados em cada base de dados, o que facilita bastante a vida.
 ~~~sql
-
+USE escola;
 ~~~
 
 #### **SELECT**
@@ -69,4 +81,28 @@ Como o próprio nome já denuncia, o comando **DELETE** serve para excluir um ou
 ~~~sql
 DELETE FROM estudantes WHERE id = 23;
 DELETE FROM estudantes;
+~~~
+
+#### **GRANT**
+O comando **GRANT** é utilizado para conceder privilégios dentro do banco de dados. Isso significa que, com ele, podemos autorizar que determinadas ações sejam executadas apenas por pessoas específicas.
+~~~sql
+GRANT SELECT, INSERT, UPDATE ON estudantes TO Maria;
+~~~
+
+#### **REVOKE**
+O comando **REVOKE** é utilizado para revogar os privilégios que foram concedidos anteriormente.
+~~~sql
+REVOKE SELECT ON estudantes FROM  Maria;
+~~~
+
+#### **DENY**
+O comando **DENY** é utilizado para negar explicitamente uma ou mais permissões a um objeto do banco.
+~~~sql
+DENY SELECT ON estudantes TO João;
+~~~
+
+#### ****
+O comando 
+~~~sql
+
 ~~~
