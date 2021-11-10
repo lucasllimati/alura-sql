@@ -7,7 +7,7 @@
 
 ## Conteúdo
 
-**SQ**L: **S**tructured **Q**uery **L**anguage, ou Linguagem de Consulta Estruturada ou SQL.
+**SQL**: **S**tructured **Q**uery **L**anguage, ou Linguagem de Consulta Estruturada ou SQL.
 
 <p>Foi criada então uma linguagem chamada SEQUEL, que vem do acrônico em inglês para Structured English Query Language, que traduzindo seria alguma coisa como linguagem de consulta estruturada em inglês.</p>
 <p>Pense assim, a linguagem SQL é uma só, porém ela é dividida em tipos de acordo com a funcionalidade dos comandos.Os tipos da linguagem SQL são:</p>
