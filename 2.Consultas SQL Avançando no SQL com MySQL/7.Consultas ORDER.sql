@@ -1,6 +1,7 @@
-
+/*SELEÇÃO DOS DADOS DA TABELA*/
 SELECT * FROM tabela_de_produtos;
 
+/*SELEÇÃO E ORDENOVAÇÃO DOS DADOS DA TABELA*/
 SELECT * FROM tabela_de_produtos ORDER BY PRECO_DE_LISTA;
 
 SELECT * FROM tabela_de_produtos ORDER BY PRECO_DE_LISTA DESC;

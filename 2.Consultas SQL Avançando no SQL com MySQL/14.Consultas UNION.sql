@@ -1,5 +1,7 @@
+/*SELEÇÃO DISTINTA DOS DADOS DA TABELA*/
 
 SELECT DISTINCT BAIRRO FROM tabela_de_clientes;
+
 SELECT DISTINCT BAIRRO FROM tabela_de_vendedores;
 
 SELECT DISTINCT BAIRRO FROM tabela_de_clientes
@@ -22,6 +24,7 @@ SELECT DISTINCT BAIRRO, NOME, 'CLIENTE' as TIPO_CLIENTE, CPF  FROM tabela_de_cli
 UNION
 SELECT DISTINCT BAIRRO, NOME, 'VENDEDOR' as TIPO_VENDEDOR, MATRICULA FROM tabela_de_vendedores;
 
+/*FULL JOIN - MYSQL*/
 SELECT tabela_de_vendedores.BAIRRO,
 tabela_de_vendedores.NOME, DE_FERIAS,
 tabela_de_clientes.BAIRRO,
