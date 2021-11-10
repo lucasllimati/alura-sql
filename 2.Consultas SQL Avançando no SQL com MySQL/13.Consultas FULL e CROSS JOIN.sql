@@ -1,3 +1,4 @@
+/*SELEÇÃO DOS DADOS DA TABELA*/
 
 SELECT * FROM tabela_de_vendedores;
 
@@ -34,6 +35,3 @@ SELECT tabela_de_vendedores.BAIRRO,
 tabela_de_vendedores.NOME, DE_FERIAS,
 tabela_de_clientes.BAIRRO,
 tabela_de_clientes.NOME  FROM tabela_de_vendedores , tabela_de_clientes;
-
-
-
