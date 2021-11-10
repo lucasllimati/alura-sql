@@ -1,3 +1,4 @@
+/*SELEÇÃO DOS DADOS DA TABELA*/
 
 SELECT * FROM tbcliente;
 
