@@ -29,13 +29,13 @@
 #### **CREATE DATABASE**
 Com o comando **CREATE DATABASE** é possível criar um banco de dados do zero. Esse comando é muito importante principalmente quando você precisa reestruturar todo o seu sistema, mas não sabe por onde começar. Criando um novo banco de dados é possível planejar a organização e estruturar o novo banco de dados desde o início o que facilita na hora de realizar consultas posteriormente. As informações estão mais fáceis de serem encontradas.
 ~~~sql
-
+CREATE DATABASE escola;
 ~~~
 
 #### **CREATE TABLE**
 Esse comando serve para criar novas tabelas em uma base de dados. O **CREATE TABLE** cria novas tabelas, conseguindo dividi-las em colunas, onde é possível salvar e referenciar especificações de produtos, etc. Com a criação de uma tabela, é preciso especificar todas as colunas e campos criados e este comando consegue dar o tom para toda essa parte importante para a inserção de novos registros num banco de dados.
 ~~~sql
-CREATE DATABASE escola;
+CREATE TABLE estudantes (id INT PRIMARY KEY, nome VARCHAR(50), cursoVARCHAR(100));
 ~~~
 
 #### **ALTER TABLE**
@@ -54,6 +54,13 @@ DROP TABLE estudantes;
 Esses dois comandos são bastante parecidos, por isso vamos falar deles num único tópico. O comando **SHOW DATABASES** serve para fazer a visualização mais rápida de diferentes bases de dados. Já com o comando **USE** é possível selecionar qual base de dados queremos usar e editar. Ambos os comandos são essenciais para desenvolvedores web que trabalham com vários bancos de dados e querem ter a vida facilitada sempre que precisarem pesquisar em qualquer uma das bases. Através do comando USE e do **SHOW DATABASES** é possível saber quais dados estão armazenados em cada base de dados, o que facilita bastante a vida.
 ~~~sql
 USE escola;
+SHOW DATABASES;
+~~~
+
+#### **SHOW TABLES**
+O comando **SHOW TABLES** é similar ao comando **SHOW DATABASES**, utilizado caso você possua múltiplas tabelas dentro de um banco de dados e desejar ver uma lista de todos os itens contidos em cada tabela.
+~~~sql
+SHOW TABLES;
 ~~~
 
 #### **SELECT**
@@ -83,6 +90,78 @@ DELETE FROM estudantes WHERE id = 23;
 DELETE FROM estudantes;
 ~~~
 
+#### **ORDER BY**
+O comando **ORDER BY** é utilizado para finalizar nossa lista de comandos essenciais em SQL, vamos fazer com que os resultados de uma consulta sejam exibidos em uma ordem específica, bastando para isso usar a cláusula ORDER BY, seguida do nome da coluna que se deseja ordenar.
+~~~sql
+SELECT Nome_Prod, Preco_Prod
+FROM Produtos
+ORDER BY Nome_Prod;
+~~~
+
+#### **JOINS**
+O comando 
+~~~sql
+
+~~~
+
+#### **JOINs**
+O comando **JOIN** é usada para combinar linhas de duas ou mais tabelas, com base em uma coluna relacionada entre elas. Segue as variações da função.
+###### Inner Join
+O **Inner Join** é o método de junção mais conhecido e, como ilustra a Figura 2, retorna os registros que são comuns às duas tabelas.
+~~~sql
+SELECT a.Nome, b.Nome
+FROM TabelaA as A
+INNER JOIN TabelaB as B on a.Nome = b.Nome
+~~~
+
+###### Left Join
+O **Left Join** tem como resultado todos os registros que estão na tabela A (mesmo que não estejam na tabela B) e os registros da tabela B que são comuns à tabela A.
+~~~sql
+SELECT a.Nome, b.Nome
+FROM TabelaA as A
+LEFT JOIN TabelaB as B on a.Nome = b.Nome
+~~~
+
+###### Right Join
+Usando o **Right Join**, teremos como resultado todos os registros que estão na tabela B (mesmo que não estejam na tabela A) e os registros da tabela A que são comuns à tabela B.
+~~~sql
+SELECT a.Nome, b.Nome
+FROM TabelaA as A
+RIGHT JOIN TabelaB as B on a.Nome = b.Nome
+~~~
+
+###### Outer Join
+O **Outer Join** (também conhecido por Full Outer Join ou Full Join), tem como resultado todos os registros que estão na tabela A e todos os registros da tabela B.
+~~~sql
+SELECT a.Nome, b.Nome
+FROM TabelaA as A
+FULL OUTER JOIN TabelaB as B on a.Nome = b.Nome
+~~~
+
+###### Left Excluding Join
+O **Left Excluding Join**, que retorna como resultado todos os registros que estão na tabela A e que não estejam na tabela B.
+~~~sql
+SELECT a.Nome, b.Nome
+FROM TabelaA as A
+LEFT JOIN TabelaB as B on a.Nome = b.Nome WHERE b.Nome is null
+~~~
+
+###### Right Excluding Join
+O **Right Excluding Join** retorna como resultado todos os registros que estão na tabela B e que não estejam na tabela A. 
+~~~sql
+SELECT a.Nome, b.Nome
+FROM TabelaA as A
+RIGHT JOIN TabelaB as B on a.Nome = b.Nome WHERE a.Nome is null
+~~~
+
+###### Outer Excluding Join
+Usando o **Outer Excluding Join**, teremos como resultado todos os registros que estão na tabela B, mas que não estejam na tabela A, e todos os registros que estão na tabela A, mas que não estejam na tabela B.
+~~~sql
+SELECT a.Nome, b.Nome
+FROM TabelaA as A
+FULL OUTER JOIN TabelaB as B on a.Nome = b.Nome WHERE a.Nome is null or b.Nome is null
+~~~
+
 #### **GRANT**
 O comando **GRANT** é utilizado para conceder privilégios dentro do banco de dados. Isso significa que, com ele, podemos autorizar que determinadas ações sejam executadas apenas por pessoas específicas.
 ~~~sql
@@ -101,8 +180,8 @@ O comando **DENY** é utilizado para negar explicitamente uma ou mais permissõe
 DENY SELECT ON estudantes TO João;
 ~~~
 
-#### ****
+<!-- #### ****
 O comando 
 ~~~sql
 
-~~~
+~~~ -->
