@@ -98,15 +98,12 @@ FROM Produtos
 ORDER BY Nome_Prod;
 ~~~
 
-#### **JOINS**
-O comando 
-~~~sql
-
-~~~
-
 #### **JOINs**
 O comando **JOIN** é usada para combinar linhas de duas ou mais tabelas, com base em uma coluna relacionada entre elas. Segue as variações da função.
-###### Inner Join
+<!-- ![](img/joins.jpg) -->
+<img src="img/joins.jpg" alt="joins" width="500"/>
+
+##### Inner Join
 O **Inner Join** é o método de junção mais conhecido e, como ilustra a Figura 2, retorna os registros que são comuns às duas tabelas.
 ~~~sql
 SELECT a.Nome, b.Nome
@@ -114,7 +111,7 @@ FROM TabelaA as A
 INNER JOIN TabelaB as B on a.Nome = b.Nome
 ~~~
 
-###### Left Join
+##### Left Join
 O **Left Join** tem como resultado todos os registros que estão na tabela A (mesmo que não estejam na tabela B) e os registros da tabela B que são comuns à tabela A.
 ~~~sql
 SELECT a.Nome, b.Nome
@@ -122,7 +119,7 @@ FROM TabelaA as A
 LEFT JOIN TabelaB as B on a.Nome = b.Nome
 ~~~
 
-###### Right Join
+##### Right Join
 Usando o **Right Join**, teremos como resultado todos os registros que estão na tabela B (mesmo que não estejam na tabela A) e os registros da tabela A que são comuns à tabela B.
 ~~~sql
 SELECT a.Nome, b.Nome
@@ -130,7 +127,7 @@ FROM TabelaA as A
 RIGHT JOIN TabelaB as B on a.Nome = b.Nome
 ~~~
 
-###### Outer Join
+##### Outer Join
 O **Outer Join** (também conhecido por Full Outer Join ou Full Join), tem como resultado todos os registros que estão na tabela A e todos os registros da tabela B.
 ~~~sql
 SELECT a.Nome, b.Nome
@@ -138,7 +135,7 @@ FROM TabelaA as A
 FULL OUTER JOIN TabelaB as B on a.Nome = b.Nome
 ~~~
 
-###### Left Excluding Join
+##### Left Excluding Join
 O **Left Excluding Join**, que retorna como resultado todos os registros que estão na tabela A e que não estejam na tabela B.
 ~~~sql
 SELECT a.Nome, b.Nome
@@ -146,7 +143,7 @@ FROM TabelaA as A
 LEFT JOIN TabelaB as B on a.Nome = b.Nome WHERE b.Nome is null
 ~~~
 
-###### Right Excluding Join
+##### Right Excluding Join
 O **Right Excluding Join** retorna como resultado todos os registros que estão na tabela B e que não estejam na tabela A. 
 ~~~sql
 SELECT a.Nome, b.Nome
@@ -154,7 +151,7 @@ FROM TabelaA as A
 RIGHT JOIN TabelaB as B on a.Nome = b.Nome WHERE a.Nome is null
 ~~~
 
-###### Outer Excluding Join
+##### Outer Excluding Join
 Usando o **Outer Excluding Join**, teremos como resultado todos os registros que estão na tabela B, mas que não estejam na tabela A, e todos os registros que estão na tabela A, mas que não estejam na tabela B.
 ~~~sql
 SELECT a.Nome, b.Nome
