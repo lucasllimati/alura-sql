@@ -159,6 +159,7 @@ FROM TabelaA as A
 FULL OUTER JOIN TabelaB as B on a.Nome = b.Nome WHERE a.Nome is null or b.Nome is null
 ~~~
 
+
 #### **GRANT**
 O comando **GRANT** é utilizado para conceder privilégios dentro do banco de dados. Isso significa que, com ele, podemos autorizar que determinadas ações sejam executadas apenas por pessoas específicas.
 ~~~sql
