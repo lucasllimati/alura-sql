@@ -1,7 +1,6 @@
-
+/*Primeira inclusão de registro*/
 
 INSERT INTO [TABELA DE PRODUTOS]
 ([CODIGO DO PRODUTO], [NOME DO PRODUTO], [EMBALAGEM], [TAMANHO], [SABOR], [PREÇO DE LISTA])
 VALUES
 ('1040107','Light - 350 ml - Melância', 'Lata', '350 ml', 'Melancia', 4.56)
-
