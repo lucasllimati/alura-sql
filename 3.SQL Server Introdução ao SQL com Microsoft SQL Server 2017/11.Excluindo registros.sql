@@ -1,0 +1,4 @@
+/*Exclusão de um dado no banco*/
+
+DELETE FROM [TABELA DE PRODUTOS]
+WHERE [CODIGO DO PRODUTO] = '1088126'
