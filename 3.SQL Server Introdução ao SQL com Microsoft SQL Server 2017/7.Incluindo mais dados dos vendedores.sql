@@ -1,0 +1,11 @@
+/*Inclusão de mais registro - tabela vendedor*/
+
+INSERT INTO [TABELA DE VENDEDORES]
+([MATRICULA], [NOME], [PERCENTUAL COMISSÃO])
+VALUES
+('00235','Márcio Almeida Silva',0.08)
+
+INSERT INTO [TABELA DE VENDEDORES]
+([MATRICULA], [NOME], [PERCENTUAL COMISSÃO])
+VALUES
+('00236','Cláudia Morais',0.08)
