@@ -5,7 +5,7 @@
 - [Introdução ao SQL com MySQL: Manipule e consulte dados](https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql)
 - [Consultas SQL: Avançando no SQL com MySQL](https://cursos.alura.com.br/course/mysql-consultas-sql)
 - [SQL Server: Introdução ao SQL com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/sql-com-sql-server-2017)
-- []()
+- [SQL Server: Consultas avançadas com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/consultas-sql-server-2017)
 - []()
 - []()
 
