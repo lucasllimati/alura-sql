@@ -102,6 +102,24 @@ FROM Produtos
 ORDER BY Nome_Prod;
 ~~~
 
+#### **GROUP BY**
+
+~~~sql
+
+~~~
+
+#### **TOP**
+
+~~~sql
+
+~~~
+
+#### **DISTINCT**
+
+~~~sql
+
+~~~
+
 #### **JOINs**
 O comando **JOIN** é usada para combinar linhas de duas ou mais tabelas, com base em uma coluna relacionada entre elas. Segue as variações da função.
 <!-- ![](img/joins.jpg) -->
