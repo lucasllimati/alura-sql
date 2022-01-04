@@ -8,6 +8,7 @@
 - [SQL Server: Consultas avançadas com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/consultas-sql-server-2017)
 - []()
 - []()
+- [EXEMPLOS SQL W3School](https://www.w3schools.com/sql/sql_examples.asp)
 
 ## Conteúdo
 
