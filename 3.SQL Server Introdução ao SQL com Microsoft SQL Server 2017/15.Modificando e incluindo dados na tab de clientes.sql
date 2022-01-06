@@ -39,4 +39,5 @@ INSERT INTO [dbo].[TABELA DE CLIENTES]
            ,'M'
            ,12000.50
            ,1000
-           ,1)
+           ,1
+		   )

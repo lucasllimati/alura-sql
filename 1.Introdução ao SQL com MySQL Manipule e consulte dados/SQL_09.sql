@@ -15,6 +15,3 @@ VALUES ('00388934505','João da Silva','Rua projetada A número 10','',
 
 /*SELEÇÃO DOS DADOS DA TABELA*/
 SELECT * FROM tbcliente;
-
-
-
