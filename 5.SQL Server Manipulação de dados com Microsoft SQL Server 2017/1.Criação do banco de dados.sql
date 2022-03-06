@@ -2,6 +2,8 @@
 
 CREATE DATABASE [VENDAS SUCOS]
 
+
+-- Verificar e alterar o caminho do arquivo (se necessário)
 CREATE DATABASE [VENDAS SUCOS 2]
 ON (NAME = VENDAS_SUCOS_2_DAT,
 FILENAME = 'C:\TEMP\DATA\VENDAS_SUCOS_02.MDF',
