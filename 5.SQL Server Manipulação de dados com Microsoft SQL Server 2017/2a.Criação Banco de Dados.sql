@@ -1,3 +1,6 @@
+-- Criação de todas as tabelas
+
+USE [VENDAS SUCOS]
 
 CREATE TABLE [dbo].[PRODUTOS](
 	[CÓDIGO] VARCHAR(10) NOT NULL,
