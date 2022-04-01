@@ -7,13 +7,15 @@
 - [SQL Server: Introdução ao SQL com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/sql-com-sql-server-2017)
 - [SQL Server: Consultas avançadas com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/consultas-sql-server-2017)
 - [SQL Server: Manipulação de dados com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/manipulacao-dados-com-sql-server-2017)
+- [SQL Server: T-SQL com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/tsql-com-sql-server-2017)
 - []()
 - []()
 - []()
 - []()
 - []()
 - []()
-- []()
+
+## Sites importantes
 - [SQL Server - T-SQL Para Iniciantes](http://www.macoratti.net/14/02/sql_tsql1.htm)
 - [EXEMPLOS SQL W3School](https://www.w3schools.com/sql/sql_examples.asp)
 
