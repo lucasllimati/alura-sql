@@ -208,6 +208,27 @@ O comando **DENY** é utilizado para negar explicitamente uma ou mais permissõe
 DENY SELECT ON estudantes TO João;
 ~~~
 
+#### **DEFAULT**
+O comando **DEFAULT** é usada para definir um valor padrão para uma coluna. O valor padrão será adicionado a todos os novos registros, se nenhum outro valor for especificado.
+~~~sql
+CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    City varchar(255) DEFAULT 'Sandnes'
+);
+
+-- A DEFAULTrestrição também pode ser usada para inserir valores do sistema, usando funções como : GETDATE()
+CREATE TABLE Orders (
+    ID int NOT NULL,
+    OrderNumber int NOT NULL,
+    OrderDate date DEFAULT GETDATE()
+);
+
+
+~~~
+
 <!-- #### ****
 O comando 
 ~~~sql
