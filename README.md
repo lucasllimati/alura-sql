@@ -8,12 +8,14 @@
 - [SQL Server: Consultas avançadas com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/consultas-sql-server-2017)
 - [SQL Server: Manipulação de dados com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/manipulacao-dados-com-sql-server-2017)
 - [SQL Server: T-SQL com Microsoft SQL Server 2017](https://cursos.alura.com.br/course/tsql-com-sql-server-2017)
+<!-- 
 - []()
 - []()
 - []()
 - []()
 - []()
-- []()
+- []() 
+-->
 
 ## Sites importantes
 
