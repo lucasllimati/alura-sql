@@ -217,6 +217,13 @@ O comando **DENY** é utilizado para negar explicitamente uma ou mais permissõe
 DENY SELECT ON estudantes TO João;
 ~~~
 
+#### **OBJECT ID**
+O comando **OBJECT ID**, nessa função eu passo como parâmetro, o nome do objeto como um varchar e depois o tipo dele.
+~~~sql
+IF OBJECT_ID('TABELA_TESTE', 'U') IS NOT NULL DROP TABLE TABELA_TESTE
+~~~
+
+
 #### **DEFAULT**
 O comando **DEFAULT** é usada para definir um valor padrão para uma coluna. O valor padrão será adicionado a todos os novos registros, se nenhum outro valor for especificado.
 ~~~sql
