@@ -1,8 +1,9 @@
 -- Calculando a idade do cliente
 /*
-Construa uma TRIGGER, de nome TG_CLIENTES_IDADE, que atualize as idades dos clientes, na tabela de clientes, toda vez que a tabela sofrer uma inclusão, alteração ou exclusão.
+Construa uma TRIGGER, de nome TG_CLIENTES_IDADE, que atualize as idades dos clientes, na tabela de clientes, toda vez que a tabela sofrer uma inclusï¿½o, alteraï¿½ï¿½o ou exclusï¿½o.
 */
 
+USE [VENDAS SUCOS]
 
 SELECT [CPF], [IDADE], [DATA NASCIMENTO], 
     DATEDIFF(YEAR, [DATA NASCIMENTO], GETDATE()) AS [IDADE]
