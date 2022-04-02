@@ -1,7 +1,7 @@
--- Testando o número de notas fiscais usando SELECT
+-- Testando o nï¿½mero de notas fiscais usando SELECT
 
 /*
-Baseado no script de resposta do exercício anterior: Em vez de testar com a variável @NUMNOTAS, use a própria consulta SQL na condição de teste.
+Baseado no script de resposta do exercï¿½cio anterior: Em vez de testar com a variï¿½vel @NUMNOTAS, use a prï¿½pria consulta SQL na condiï¿½ï¿½o de teste.
 
 
 DECLARE @DATANOTA DATE
@@ -26,7 +26,7 @@ SET @DATANOTA = '20170102'
 
 IF (
 	SELECT COUNT(*)
-	FROM [NOTAS FISCAIS]
+    FROM [NOTAS FISCAIS]
     WHERE DATA = @DATANOTA
 ) > 70
     PRINT 'Muita nota'
