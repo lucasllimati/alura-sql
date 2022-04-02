@@ -6,6 +6,8 @@ Crie uma variável chamada NUMNOTAS e atribua a ela o número de notas fiscais do 
 
 DECLARE @NUMNOTAS INTEGER
 
-SELECT @NUMNOTAS = COUNT(*) FROM [NOTAS FISCAIS] 
-    WHERE DATA = '20170101'
+SELECT @NUMNOTAS = COUNT(*)
+FROM [NOTAS FISCAIS] 
+WHERE DATA = '20170101'
+
 PRINT @NUMNOTAS
