@@ -21,10 +21,14 @@
 
 ## Conteúdo
 
+<img src="img/sql.jpg" alt="sql" width="500"/>
+
 **SQL**: **S**tructured **Q**uery **L**anguage, ou Linguagem de Consulta Estruturada ou SQL.
 
 <p>Foi criada então uma linguagem chamada SEQUEL, que vem do acrônico em inglês para Structured English Query Language, que traduzindo seria alguma coisa como linguagem de consulta estruturada em inglês.</p>
 <p>Pense assim, a linguagem SQL é uma só, porém ela é dividida em tipos de acordo com a funcionalidade dos comandos.Os tipos da linguagem SQL são:</p>
+
+<img src="img/subconjuntos-sql.png" alt="subconjuntos" width="500"/>
 
 - **DDL** - Data Definition Language - Linguagem de Definição de Dados. São os comandos que interagem com os objetos do banco.
   - São comandos DDL: **CREATE, ALTER e DROP**.
