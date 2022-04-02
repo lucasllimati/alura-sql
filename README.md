@@ -20,15 +20,17 @@
 - [EXEMPLOS SQL W3School](https://www.w3schools.com/sql/sql_examples.asp)
 
 ## Conteúdo
-
-<img src="img/sql.jpg" alt="sql" width="500"/>
+<div style="text-align:center">
+  <img src="img/sql.png" alt="sql" width="200"/>
+</div>
 
 **SQL**: **S**tructured **Q**uery **L**anguage, ou Linguagem de Consulta Estruturada ou SQL.
 
 <p>Foi criada então uma linguagem chamada SEQUEL, que vem do acrônico em inglês para Structured English Query Language, que traduzindo seria alguma coisa como linguagem de consulta estruturada em inglês.</p>
 <p>Pense assim, a linguagem SQL é uma só, porém ela é dividida em tipos de acordo com a funcionalidade dos comandos.Os tipos da linguagem SQL são:</p>
-
-<img src="img/subconjuntos-sql.png" alt="subconjuntos" width="500"/>
+<div style="text-align:center">
+  <img src="img/subconjuntos-sql.png" alt="subconjuntos" width="300"/>
+</div>
 
 - **DDL** - Data Definition Language - Linguagem de Definição de Dados. São os comandos que interagem com os objetos do banco.
   - São comandos DDL: **CREATE, ALTER e DROP**.
@@ -137,7 +139,9 @@ ORDER BY Nome_Prod;
 #### **JOINs**
 O comando **JOIN** é usada para combinar linhas de duas ou mais tabelas, com base em uma coluna relacionada entre elas. Segue as variações da função.
 <!-- ![](img/joins.jpg) -->
-<img src="img/joins.jpg" alt="joins" width="500"/>
+<div style="text-align:center">
+  <img src="img/joins.jpg" alt="joins" width="300"/>
+</div>
 
 ##### Inner Join
 O **Inner Join** é o método de junção mais conhecido e, como ilustra a Figura 2, retorna os registros que são comuns às duas tabelas.
