@@ -2,9 +2,7 @@
 
 /*
 Baseado no script de resposta do exercício anterior: Em vez de testar com a variável @NUMNOTAS, use a própria consulta SQL na condição de teste.
-*/
 
-USE [SUCOS_VENDAS]
 
 DECLARE @DATANOTA DATE
 DECLARE @NUMNOTAS INT
@@ -18,3 +16,19 @@ IF @NUMNOTAS > 70
 ELSE
     PRINT 'Pouca nota'
 PRINT @NUMNOTAS
+*/
+----------------------------------------------------------
+
+USE [SUCOS_VENDAS]
+
+DECLARE @DATANOTA DATE
+SET @DATANOTA = '20170102'
+
+IF (
+	SELECT COUNT(*)
+	FROM [NOTAS FISCAIS]
+    WHERE DATA = @DATANOTA
+) > 70
+    PRINT 'Muita nota'
+ELSE
+    PRINT 'Pouca nota'
