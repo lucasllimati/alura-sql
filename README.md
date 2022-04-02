@@ -140,7 +140,7 @@ ORDER BY Nome_Prod;
 O comando **JOIN** é usada para combinar linhas de duas ou mais tabelas, com base em uma coluna relacionada entre elas. Segue as variações da função.
 <!-- ![](img/joins.jpg) -->
 <div style="text-align:center">
-  <img src="img/joins.jpg" alt="joins" width="300"/>
+  <img src="img/joins.jpg" alt="joins" width="450"/>
 </div>
 
 ##### Inner Join
