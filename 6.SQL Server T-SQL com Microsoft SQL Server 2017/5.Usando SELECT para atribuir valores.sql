@@ -1,8 +1,10 @@
 -- Usando SELECT para atribuir valores
 
 /*
-Crie uma variável chamada NUMNOTAS e atribua a ela o número de notas fiscais do dia 01/01/2017. Mostre na saída do script o valor da variável.
+Crie uma variï¿½vel chamada NUMNOTAS e atribua a ela o nï¿½mero de notas fiscais do dia 01/01/2017. Mostre na saï¿½da do script o valor da variï¿½vel.
 */
+
+USE [SUCOS_VENDAS]
 
 DECLARE @NUMNOTAS INTEGER
 

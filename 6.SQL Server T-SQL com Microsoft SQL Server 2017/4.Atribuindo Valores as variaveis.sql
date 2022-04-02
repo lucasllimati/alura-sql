@@ -1,19 +1,21 @@
--- Atribuindo valores às variáveis
+-- Atribuindo valores ï¿½s variï¿½veis
 
 /*
-Crie 4 variáveis com as características abaixo:
+Crie 4 variï¿½veis com as caracterï¿½sticas abaixo:
 
-Nome: Cliente. Tipo: Caracteres com 10 posições. Valor: João
+Nome: Cliente. Tipo: Caracteres com 10 posiï¿½ï¿½es. Valor: Joï¿½o
 Nome: Idade. Tipo: Inteiro. Valor: 10
 Nome: DataNascimento. Tipo: Data. Valor: 10/01/2007
-Nome: Custo. Tipo: Número com casas decimais. Valor: 10,23
+Nome: Custo. Tipo: Nï¿½mero com casas decimais. Valor: 10,23
 
-Construa um script que declare estas variáveis, atribua valores a elas e exiba-as na saída do SQL Server Management Studio.
+Construa um script que declare estas variï¿½veis, atribua valores a elas e exiba-as na saï¿½da do SQL Server Management Studio.
 */
+
+USE [SUCOS_VENDAS]
 
 DECLARE @Cliente VARCHAR(10), @Idade INTEGER, @DataNascimento DATE, @Custo FLOAT
 
-SET @Cliente = 'João'
+SET @Cliente = 'Joï¿½o'
 SET @Idade = 10
 SET @DataNascimento = '20070110'
 SET @Custo = 10.23
