@@ -32,7 +32,7 @@
 
 <p>Foi criada então uma linguagem chamada SEQUEL, que vem do acrônico em inglês para Structured English Query Language, que traduzindo seria alguma coisa como linguagem de consulta estruturada em inglês.</p>
 <p>Pense assim, a linguagem SQL é uma só, porém ela é dividida em tipos de acordo com a funcionalidade dos comandos.Os tipos da linguagem SQL são:</p>
-<div style="text-align:center">
+<div>
   <img src="img/subconjuntos-sql.png" alt="subconjuntos" width="300"/>
 </div>
 
@@ -51,6 +51,10 @@
 ### Comandos
 
 Segue abaixo, algusn comendos importantes do T-SQL.
+
+<div>
+  <img src="img/colinhasql.jpg" alt="subconjuntos" width="300"/>
+</div>
 
 #### **CREATE DATABASE**
 
