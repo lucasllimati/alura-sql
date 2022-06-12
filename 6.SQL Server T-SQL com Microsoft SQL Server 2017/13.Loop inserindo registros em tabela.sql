@@ -15,8 +15,10 @@ DECLARE @LIMITE_MINIMO INT, @LIMITE_MAXIMO INT, @CONTADOR_NOTAS INT
 SET @LIMITE_MINIMO = 1
 SET @LIMITE_MAXIMO = 100000
 
--- Percorre cada Nota Fiscal e preenche o número e o status
+-- Comando que tira a mensagem de linhas afetadas, segunda aba de debug do SQL SERVER
 SET NOCOUNT ON
+
+-- Percorre cada Nota Fiscal e preenche o número e o status
 WHILE @LIMITE_MINIMO <= @LIMITE_MAXIMO
 	BEGIN
 	   SELECT @CONTADOR_NOTAS = COUNT(*) FROM [NOTAS FISCAIS] WHERE [NUMERO] = @LIMITE_MINIMO
