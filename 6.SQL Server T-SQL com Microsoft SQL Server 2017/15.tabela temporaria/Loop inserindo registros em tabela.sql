@@ -1,0 +1,30 @@
+/*
+Temos 3 tipós de tabelas temporárias:
+	- # : Tabelas que valem para a conexão vigente.
+	- ##: Tabelas que valem para várias conexões
+	- @ : Tabelas que valem para procedimento que esta sendo executado no momento.
+*/
+
+USE [SUCOS_VENDAS]
+IF OBJECT_ID ('TABELA DE NUMEROS','U') IS NOT NULL
+   DROP TABLE [TABELA DE NUMEROS]
+
+CREATE TABLE [TABELA DE NUMEROS] ([NUMERO] INT, [STATUS] VARCHAR(200))
+
+DECLARE @LIMITE_MINIMO INT, @LIMITE_MAXIMO INT, @CONTADOR_NOTAS INT
+
+SET @LIMITE_MINIMO = 1
+SET @LIMITE_MAXIMO = 100000
+
+SET NOCOUNT ON
+WHILE @LIMITE_MINIMO <= @LIMITE_MAXIMO
+BEGIN
+   SELECT @CONTADOR_NOTAS = COUNT(*) FROM [NOTAS FISCAIS] WHERE [NUMERO] = @LIMITE_MINIMO
+   IF @CONTADOR_NOTAS > 0 
+       INSERT INTO [TABELA DE NUMEROS] ([NUMERO], [STATUS]) VALUES (@LIMITE_MINIMO, 'É nota fiscal')
+   ELSE
+       INSERT INTO [TABELA DE NUMEROS] ([NUMERO], [STATUS]) VALUES (@LIMITE_MINIMO, 'Não é nota fiscal')
+   SET @LIMITE_MINIMO = @LIMITE_MINIMO + 1   
+END
+
+SELECT * FROM [TABELA DE NUMEROS]
