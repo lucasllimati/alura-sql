@@ -1,5 +1,5 @@
 /*
-Temos 3 tipós de tabelas temporárias:
+Temos 3 tipos de tabelas temporárias:
 	- # : Tabelas que valem para a conexão vigente.
 	- ##: Tabelas que valem para várias conexões
 	- @ : Tabelas que valem para procedimento que esta sendo executado no momento.
