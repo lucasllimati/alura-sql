@@ -1,3 +1,6 @@
+-- Excluindo uma função
+
+USE [SUCOS_VENDAS]
 
 IF OBJECT_ID ('EnderecoCompleto3', 'FN') IS NOT NULL
 DROP FUNCTION [dbo].[EnderecoCompleto3] 
@@ -11,6 +14,3 @@ BEGIN
    SET @ENDERECO_COMPLETO = @ENDERECO + ', ' + @CIDADE + ', ' + @ESTADO + ', ' + @CEP
    RETURN @ENDERECO_COMPLETO
 END
-
-
-
